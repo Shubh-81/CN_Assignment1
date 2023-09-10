@@ -48,6 +48,25 @@ To run the compiled program for Problem 1b:
 ./a.out <path_to_pcap_file>
 ```
 
+### Problem 2
+
+The second problem is a capture the flag problem in which a pcap file is given (2.pcap) with some hidden information which is to be extracted.
+
+The solution for this problem is provided in the file `2.c`.
+
+To run the code replace the `your_file.pcap` with path to pcap file in the main function.
+To compile the code for Problem 1b, use the following command:
+
+```bash
+gcc <file_name.c> -lpcap
+```
+
+To run the compiled program for Problem 1b:
+
+```bash
+./a.out 
+```
+
 ### Problem 3
 
 The third problem extends the code from Part I to include the functionality that links the client application TCP port number to the corresponding process ID of that application.
